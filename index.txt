@@ -117,7 +117,7 @@
       <button class="dropbtn">Open Sections</button>
       <div class="dropdown-content">
         <a href="Ap/AP%20Page.html" target="_blank">AP Page</a>
-        <a href="Ict/ICT%20Page.html" target="_blank">ICT Page</a>
+        <a href="Ict/ICT%20outputs.html" target="_blank">ICT Page</a>
         <a href="My%20personal%20space/Personal%20Space.html" target="_blank">My Personal Space</a>
       </div>
     </div>
@@ -129,3 +129,4 @@
 
 </body>
 </html>
+
