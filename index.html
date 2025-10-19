@@ -1,59 +1,137 @@
 <!DOCTYPE html>
-<html>
-<head><title>E-PORTFOLIO</title></head>
-<body>
-<p style="background-image: url('forest.jpg');font-family:Arial;font-size:100px;text-align:center;color:white">WELCOME TO MY PORTFOLIO</p>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.dropbtn {background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portfolio | Home</title>
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+  <style>
+    body {
+      background-color: aquamarine;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+    header {
+      background-image: url('Forest.jpg');
+      background-size: cover;
+      background-position: center;
+      color: maroon;
+      font-size: 64px;
+      font-weight: bold;
+      padding: 100px 0;
+      text-shadow: 2px 2px 5px white;
+    }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+    h2 {
+      color: #333;
+      margin-top: 40px;
+    }
 
-.dropdown-content a:hover {background-color: #ddd;}
+    p {
+      font-size: 18px;
+    }
 
-.dropdown:hover .dropdown-content {display: block;}
+    /* Dropdown styles */
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-</style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      border-radius: 8px;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #028a5e;
+      color: white;
+      font-size: 16px;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 18px;
+      color: maroon;
+      text-decoration: none;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-<body style="background-color:Chartreuse;">
+<body>
 
-<h2>E-Portfolio</h2>
-<p>Move the mouse over the button to open the dropdown menu.</p>
-<div class="dropdown">
-<div class="dropdown-content">
-  <button class="dropbtn">Dropdown</button>
-<div class="dropdown-content">
-  <a href="Ap/AP%20Page.html" target="_blank">AP Page</a>
-  <a href="Ict/ICT%20Page.html" target="_blank">ICT Page</a>
-  <a href="My%20personal%20space/Personal%20Space.html" target="_blank">My Personal Space</a>
-</div>
+  <header>
+    My E-Portfolio
+  </header>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>Hover over the button below to explore my portfolio pages.</p>
+
+    <div class="dropdown">
+      <button class="dropbtn">Open Sections</button>
+      <div class="dropdown-content">
+        <a href="Ap/AP%20Page.html" target="_blank">AP Page</a>
+        <a href="Ict/ICT%20Page.html" target="_blank">ICT Page</a>
+        <a href="My%20personal%20space/Personal%20Space.html" target="_blank">My Personal Space</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Allan Jed Capillo — E-Portfolio Project
+  </footer>
+
+</body>
+</html>
 
 
 </body>
 
 </html>
+
